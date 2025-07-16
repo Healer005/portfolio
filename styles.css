@@ -1,0 +1,35 @@
+body {
+    scroll-behavior: smooth;
+}
+.skill-card, .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+}
+.carousel::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+.carousel .project-card {
+    flex: 0 0 90%;
+    scroll-snap-align: start;
+    margin-right: 1rem;
+}
+@media (min-width: 640px) {
+    .carousel .project-card {
+        flex: 0 0 45%;
+    }
+}
+@media (min-width: 1024px) {
+    .carousel .project-card {
+        flex: 0 0 30%;
+    }
+}
