@@ -69,7 +69,7 @@ System: It looks like the `script.js` file was cut off in the previous response.
             <h2 class="text-xl sm:text-2xl font-semibold text-indigo-900 mb-4">My Projects</h2>
             <div class="carousel">
                 <div class="project-card bg-white p-4 rounded-lg shadow-md">
-                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">Customer Retention Dashboard</h3>
+                    <h3 href="https://github.com/Healer005/sentify" class="text-lg sm:text-xl font-semibold text-indigo-700">Customer Retention Dashboard</h3>
                     <p class="text-gray-600 text-sm sm:text-base">Developed a Tableau dashboard to analyze customer churn, reducing retention costs by 15% for a retail client. Used Python for data preprocessing and SQL for database queries.</p>
                     <p class="text-xs sm:text-sm text-gray-500 mt-2">Impact: Improved decision-making for executives, provided technical teams with clear data pipelines.</p>
                 </div>
