@@ -11,14 +11,14 @@ System: It looks like the `script.js` file was cut off in the previous response.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Your Name]'s Responsive Portfolio</title>
+    <title>Megha's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-gray-100 font-sans text-gray-800">
     <header class="bg-indigo-900 text-white text-center py-12">
-        <h1 class="text-3xl sm:text-4xl font-bold">[Your Name]'s Portfolio</h1>
-        <p class="mt-2 text-base sm:text-lg">Transforming Business Challenges into Opportunities</p>
+        <h1 class="text-3xl sm:text-4xl font-bold">Megha Vala</h1>
+        <p class="mt-2 text-base sm:text-lg">Transforming Automation Challenges into Opportunities</p>
     </header>
     <nav class="bg-indigo-800 text-white py-4 sticky top-0 z-10">
         <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-6">
@@ -32,7 +32,7 @@ System: It looks like the `script.js` file was cut off in the previous response.
     <main class="max-w-6xl mx-auto py-8 px-4">
         <section id="about" class="mb-12 bg-white p-6 rounded-lg shadow-md">
             <h2 class="text-xl sm:text-2xl font-semibold text-indigo-900 mb-4">About Me</h2>
-            <p class="text-gray-700 text-sm sm:text-base">I am a versatile professional with expertise in data analysis, strategic planning, and stakeholder engagement. My mission is to empower businesses to achieve their goals through actionable insights and innovative strategies. Whether you're an executive seeking ROI, a technical lead needing robust solutions, or an HR manager valuing team synergy, I tailor my approach to meet your needs.</p>
+            <p class="text-gray-700 text-sm sm:text-base">I'm a passionate AI developer driven by the pursuit of transformative technology that solves real-world challenges. With a deep expertise in machine learning, natural language processing, and data-driven innovation, I craft intelligent systems that push boundaries and create meaningful impact. My work blends creativity with technical precision, fueled by a relentless curiosity to explore the frontiers of artificial intelligence. Whether it's building scalable AI models, optimizing algorithms, or collaborating on cutting-edge projects, I'm committed to shaping a future where technology empowers and inspires.</p>
         </section>
         <section id="skills" class="mb-12">
             <h2 class="text-xl sm:text-2xl font-semibold text-indigo-900 mb-4">My Skills</h2>
@@ -52,18 +52,24 @@ System: It looks like the `script.js` file was cut off in the previous response.
                     <p class="text-gray-600 text-sm sm:text-base">Expert in Python, SQL, and Tableau for actionable insights from complex datasets.</p>
                 </div>
                 <div class="skill-card bg-white p-4 rounded-lg shadow-md" data-category="strategy">
-                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">Strategic Planning</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Craft strategies aligned with business goals and market trends.</p>
+                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">YOLO Integration</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Passionate about optimizing YOLO frameworks to create scalable, real-world AI applications with unparalleled detection performance.</p>
                 </div>
                 <div class="skill-card bg-white p-4 rounded-lg shadow-md" data-category="communication">
-                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">Stakeholder Communication</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Present insights tailored to executives, technical teams, and HR.</p>
+                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">Tensorflow</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Skilled in applying TensorFlow to develop and optimize sophisticated deep learning architectures for AI solutions.</p>
                 </div>
                 <div class="skill-card bg-white p-4 rounded-lg shadow-md" data-category="optimization">
-                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">Process Optimization</h3>
-                    <p class="text-gray-600 text-sm sm:text-base">Streamline workflows to boost efficiency and reduce costs.</p>
+                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">SQL</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Proficient in crafting optimized SQL queries to manage, analyze, and extract insights from large-scale databases.</p>
                 </div>
-            </div>
+            <div class="skill-card bg-white p-4 rounded-lg shadow-md" data-category="AI/ML">
+                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">AI/ML</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Adept at utilizing AI/ML methodologies to develop smart solutions, boosting automation and informed decision-making</p>
+                </div><div class="skill-card bg-white p-4 rounded-lg shadow-md" data-category="optimization">
+                    <h3 class="text-lg sm:text-xl font-semibold text-indigo-700">PowerBI</h3>
+                    <p class="text-gray-600 text-sm sm:text-base">Harnessing Power BI to deliver intuitive, data-driven tools for impactful and informed business outcomes.</p>
+                </div></div>
         </section>
         <section id="projects" class="mb-12">
             <h2 class="text-xl sm:text-2xl font-semibold text-indigo-900 mb-4">My Projects</h2>
